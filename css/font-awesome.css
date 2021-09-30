@@ -3023,22 +3023,15 @@
 }
 
 .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0
+    color: white;
 }
 
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
-    position: static;
-    width: auto;
-    height: auto;
+    position: relative;
+    width: 0%;
+    height: 0%;
     margin: 0;
-    overflow: visible;
+    overflow: hidden;
     clip: auto
 }
