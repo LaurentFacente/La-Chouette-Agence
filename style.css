@@ -7,6 +7,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+q {
+    font-style: italic;
+    font-size: 22px;
+}
+
+.auteur {
+    font-size: 18px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -677,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -686,7 +695,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Open Sans";
 }
 
@@ -705,12 +714,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -776,7 +785,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -1026,6 +1035,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    br {
+        display: none;
     }
 }
 
